@@ -28,10 +28,15 @@
     border-radius: 10px 10px 0 0;
   }
 
-  thead {
-    background-color: gray;
+  th, tfoot {
+    background-color: rgb(89, 89, 89);
     color: white;
   }
+
+  tbody > tr:nth-child(2n) {
+    background-color: gray;
+  }
+
   td.num {
     text-align: right;
   }
